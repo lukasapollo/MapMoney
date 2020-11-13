@@ -35,7 +35,7 @@ var containerSaldo = document.getElementById('ultimo-saldo')
                 var containerIcone = document.querySelectorAll('.icone-excluir')
                 var ImgIconeExcluir = document.createElement('img')
                 containerIcone[count].appendChild(ImgIconeExcluir)
-                ImgIconeExcluir.setAttribute("src", "/icone-excluir.svg")
+                ImgIconeExcluir.setAttribute("src", "icone-excluir.svg")
                 
                 //Elementos filhos criados para lista de transação
                 var divChild = document.createElement('div')
@@ -84,7 +84,7 @@ var containerSaldo = document.getElementById('ultimo-saldo')
             var containerIcone = document.querySelectorAll('.icone-excluir')
             var ImgIconeExcluir = document.createElement('img')
             containerIcone[count].appendChild(ImgIconeExcluir)
-            ImgIconeExcluir.setAttribute("src", "/icone-excluir.svg")
+            ImgIconeExcluir.setAttribute("src", "icone-excluir.svg")
             
             //Elementos filhos criados para lista de transação
             var divChild = document.createElement('div')
