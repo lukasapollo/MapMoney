@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Passero+One&family=Roboto:wght@0,100;1,700&display=swap" rel="stylesheet">
+  <link rel="icon" href="/icone.svg">
+  <link rel="stylesheet" href="/style.css">
+  <title>MapMoney</title>
+</head>
+<body>
+  <div id="navbar">
+    <h2 id="saudacao">Bem <strong>vindo!</strong></h2>
+  </div>
+
+  <div class="saldo">
+    <div class="child">
+      <p>Saldo</p>
+      <h4>R$ <span id="ultimo-saldo">0</span></h4>
+    </div>
+    <div id="icone-cifrao">$</div>
+  </div>
+
+  <div id="container">
+    <P>Transações</P>
+    <hr>
+    <div id="container-transition-pai"><!-- Aqui vai as transações-->
+      
+     <!--<div class="container-transition element-base">
+
+      <div class=" icone-excluir" ><img src="icone-excluir.svg" alt="Ecluir"></div>
+      <div class="element-create element-create-border-red element-base">
+        <div class="transition-name">Nome</div>
+        <div class="transition-value">Valor</div>
+      </div>
+    </div>-->
+    
+      
+     
+    </div>
+    <p class="p2"> Adicionar transação</p>
+    <hr class="hr2">
+
+    <span>Nome</span>
+
+    <input type="text" class="inputs" placeholder="Nome da transação" id="Nome">
+    
+    <span>Valor</span>
+    <p class="descricao-valores">(negativo - despesas, posistivo - receita)</p>
+    <input type="text" class="inputs ipt2" placeholder="Valor da transação" id="Valor">
+
+    <button type="submit" class="btn" onclick="PegandoValores()">Adicionar transação</button>
+  </div>
+
+    
+  <script src="/app.js"></script>
+  <script>
+     var nomeDoUsuario = prompt('Nos diga seu primeiro nome ou apelido!')
+     document.getElementById('saudacao').innerHTML = `Bem vindo, <strong>${nomeDoUsuario}</strong>!`
+  </script>
+</body>
+</html>
