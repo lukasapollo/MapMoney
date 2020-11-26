@@ -205,7 +205,7 @@ body{
 
 @media (max-width: 600px) {
   .inputs{
-    height: 40px;
+    height: 42px;
     margin-left: 15px;
     width: 295px;
     border-radius: 5px;
