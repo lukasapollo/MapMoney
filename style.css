@@ -206,6 +206,14 @@ body{
 @media (max-width: 600px) {
   .inputs{
     height: 40px;
+    margin-left: 15px;
+    width: 295px;
+  }
+
+  .btn{
+    width: 311px;
+    height: 40px;
+    margin-left: 15px;
   }
 }
 
