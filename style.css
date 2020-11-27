@@ -228,6 +228,10 @@ body{
   #container .p2{
     margin-left: 15px;
   }
+  
+  #container hr {
+    margin: 0 15px;
+  }
 }
 
 
