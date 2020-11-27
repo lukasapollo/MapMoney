@@ -205,15 +205,27 @@ body{
 
 @media (max-width: 600px) {
   .inputs{
-    height: 42px;
+    height: 40px;
     margin-left: 15px;
     width: 295px;
-    border-radius: 2px;
+    border-radius: 4px;
   }
 
   .btn{
     width: 311px;
-    height: 42px;
+    height: 40px;
+    margin-left: 15px;
+  }
+
+  #container span{
+    margin-left: 15px;
+  }
+
+  #container p{
+    margin-left: 15px;
+  }
+
+  #container .p2{
     margin-left: 15px;
   }
 }
